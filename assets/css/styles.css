@@ -11684,6 +11684,10 @@ a.blue2-theme {
 
 /* fixes to home page */
 
+#reduce-size {
+  font-size: 30px;
+}
+
 @media only screen and (max-width: 768px) {
   .display-6 {
     text-align:center;
@@ -11691,5 +11695,20 @@ a.blue2-theme {
     font-size: 20px
   }
 
+  #reduce-size {
+    font-size: 21px;
+  }
+
+  #logo-footer {
+    padding-top: 25px
+  }
+
+  #logo-footer img {
+    margin-bottom: 25px;
+  }
+
+  body {
+    padding-bottom:25px
+  }
 
 }

@@ -1,7 +1,8 @@
 // Global Vars
 const topImageContainer = document.querySelector('#top-image-container')
 const nandam = document.querySelector('#nandam-box')
-
+const logo = document.querySelector('#logo')
+const footerWidget = document.querySelector('.')
 
 
 // fixing the top image 
@@ -17,3 +18,7 @@ if (screen.width < 768) {
     </div>
     `
 }
+
+// logo.style.cssText = ""
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
