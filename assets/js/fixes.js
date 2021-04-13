@@ -1,6 +1,6 @@
 // Global Vars
 const topImageContainer = document.querySelector('#top-image-container')
-
+const nandam = document.querySelector('#nandam-box')
 
 
 
