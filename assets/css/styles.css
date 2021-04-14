@@ -11688,6 +11688,26 @@ a.blue2-theme {
   font-size: 30px;
 }
 
+#nandam-box {
+  position: relative;
+}
+
+#left-arrow, #right-arrow {
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  position: absolute;
+  width:20px
+}
+
+#left-arrow {
+  left: 5px
+}
+
+#right-arrow {
+  right: 40px;
+} 
+
 @media only screen and (max-width: 768px) {
   .display-6 {
     text-align:center;
@@ -11711,4 +11731,19 @@ a.blue2-theme {
     padding-bottom:25px
   }
 
+  #left-arrow {
+    left: 0
+  }
+  
+  #right-arrow {
+    right: 38px;
+  } 
+
+}
+
+
+@media only screen and (max-width: 767px) {
+  #right-arrow {
+    right: 28px;
+  }
 }

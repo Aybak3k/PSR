@@ -375,29 +375,42 @@
 
 
         <div class="row" id="nandam-box"
-            style="display:flex;align-items:center;justify-content:left;flex:1;margin-top: 5%;margin-bottom:5%;">
+            style="display:flex;align-items:center;justify-content:center;flex:1;margin-top: 5%;margin-bottom:5%;">
             <center>
                 <h4 class="display-6"
                     style="color:#006E4C;font-family: 'Poppins', sans-serif;font-weight: 400;font-size: 1.5rem">
                     <strong>OUR PROJECTS</strong></h4>
                 <br>
             </center>
-            <div class="col-1 col-lg-3 col-md-3 abcd"
-                style="display:flex;align-items:center;justify-content:center;flex:1;cursor:pointer;border-radius: 25%;">
-                <button style="background-color: transparent;border-color: transparent;" class="slider_btn"
-                    onclick="plusDivs(-1)">
+
+            <!-- arrows start -->
+
+
+                <button onclick="arrSwitch()" id="left-arrow">
                     <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor"
                         class="bi bi-chevron-left" viewBox="0 0 16 16">
                         <path fill-rule="evenodd"
                             d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z" />
                     </svg>
                 </button>
-            </div>
+            
+                <button onclick="arrSwitch()" id="right-arrow">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor"
+                        class="bi bi-chevron-right" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
+                    </svg>
+                </button>
+
+
+            <!-- arrows end -->
+
+
             <div class="col-10 col-lg-6 col-md-6   justify-content-center mySlides active" id="slide0">
                 <center>
                     <div class="" style="height:75%">
                         <img src="images/psrnandanamelevations_/front 03.jpg" class="img-fluid mx-auto" alt=""
-                            width="75%" height="30%">
+                            width="75%" height="30%" id="arrTargetImg">
                     </div>
                 </center>
                 <div class="dashboard-wraper">
@@ -405,11 +418,11 @@
                         <div class="submit-section">
                             <div class="row d-flex justify-content-center">
                                 <h3 style="color: #006E4C;" class="d-flex justify-content-center"> <a
-                                        href="nandanam.html" style="color: #006E4C;font-size:1.2rem"> <strong>PSR
+                                        href="nandanam.html" style="color: #006E4C;font-size:1.2rem"> <strong id="arrTargetTitle">PSR
                                             NANDANAM</strong></a></h3>
                                 <center>
                                     <p style="width:100%;font-family: 'Poppins', sans-serif;font-weight: 200;font-size:0.9rem"
-                                        class="d-flex justify-content-center">Nandanam is an on-going project of 44
+                                        class="d-flex justify-content-center" id="arrTargetP">Nandanam is an on-going project of 44
                                         luxurious villaments located in
                                         Devanahalli, Bengaluru. These unique architectural designs have been
                                         crafted with the right blend of innovation, creativity, and luxury.</p>
@@ -424,49 +437,6 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-10 col-lg-6 col-md-6   justify-content-center mySlides  " id="slide1">
-                <center>
-                    <div class="" style="height:75%">
-                        <img src="images/krish-kamal-images/2.jpeg" class="img-fluid mx-auto" alt="" width="75%"
-                            height="30%">
-                    </div>
-                </center>
-                <div class="dashboard-wraper">
-                    <div class="form-submit d-flex justify-content-center">
-
-                        <div class="submit-section">
-                            <div class="row d-flex justify-content-center">
-                                <h3 style="color: #006E4C;" class="d-flex justify-content-center"> <a
-                                        href="project.html" style="color: #006E4C;font-size:1.2rem"> <strong>Krish
-                                            Kamal</strong></a></h3>
-                                <center>
-                                    <p style="width:100%;font-family: 'Poppins', sans-serif;font-weight: 200;font-size:0.9rem"
-                                        class="d-flex justify-content-center">Krish Kamal is an on-going project of 44
-                                        luxurious villaments located in
-                                        Devanahalli, Bengaluru. These unique architectural designs have been
-                                        crafted with the right blend of innovation, creativity, and luxury.</p>
-                                </center>
-                            </div>
-                            <center>
-                                <button class="btn btn-success" type="button" data-toggle="modal"
-                                    data-target="#exampleModalCenter">Free Site Visit</button>
-
-                            </center>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-1 col-lg-3 col-md-3 abcd"
-                style="display:flex;align-items:center;justify-content:center;flex:1;cursor:pointer">
-                <button style="background-color: transparent;border-color: transparent;" class="slider_btn"
-                    onclick="plusDivs(1)">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor"
-                        class="bi bi-chevron-right" viewBox="0 0 16 16">
-                        <path fill-rule="evenodd"
-                            d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
-                    </svg>
-                </button>
             </div>
         </div>
 
@@ -871,20 +841,7 @@
                 </div>
             </div>
         </div>
-        <script>
-            if (screen.width < 768) {
-                document.querySelector('#top-image-container').innerHTML = `
-                    <div class="col-lg-8 col-md-8" style="padding: 0;">
-                        <img src="images/a.jpg" width="100%" >
-                    </div>
-                    <div class="col-lg-4 col-md-4" style="background-color: #006E4C;display:flex;align-items:center;justify-content:center;flex:1">
-                    <p class="display-6" style="color:white;font-family: 'Poppins', sans-serif; font-weight: 200">Building world class<br>
-                            living spaces for  <br>
-                            people with taste</p><br>
-                    </div>
-                    `
-            }
-        </script>
+        <script src="assets/js/fixes.js"></script>
         <script src="https://kit.fontawesome.com/f662a74373.js" crossorigin="anonymous"></script>
         <script src="assets/js/jquery.min.js"></script>
         <script src="assets/js/popper.min.js"></script>
@@ -901,37 +858,6 @@
         <script src="assets/js/imagesloaded.js"></script>
 
         <script src="assets/js/custom.js"></script>
-        <script>
-            slideCounter = 0;
-            totalSlide = $(".mySlides").length
-            function plusDivs(counter) {
-                if (counter > 0) {
-                    slideCounter++
-                    $(".active").animate({
-                        left: '250px',
-                        opacity: '0',
-                    }, 'slow', function () { $(this).removeAttr('style') }).attr('class', 'col-lg-6 col-md-6   justify-content-center mySlides')
-                    if ((slideCounter) >= totalSlide) {
-                        slideCounter = 0;
-                    }
-                    $("#slide" + slideCounter).attr('class', 'col-lg-6 col-md-6   justify-content-center mySlides active')
-
-                } else {
-                    slideCounter--
-                    $(".active").animate({
-                        left: '-250px',
-                        opacity: '0',
-                    }, 'slow', function () { $(this).removeAttr('style') }).attr('class', 'col-lg-6 col-md-6   justify-content-center mySlides')
-                    if ((slideCounter) < 0) {
-                        slideCounter = totalSlide - 1;
-                    }
-                    $("#slide" + slideCounter).attr('class', 'col-lg-6 col-md-6   justify-content-center mySlides active')
-
-                }
-                console.log(slideCounter)
-            }
-
-        </script>
         <script>
             $("#projects").hover(function () {
                 $("#residential").show();
