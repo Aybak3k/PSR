@@ -49,6 +49,42 @@
                     display:none !important;
                 }
             }
+            #nandam-box {
+  position: relative;
+}
+
+#left-arrow, #right-arrow {
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  position: absolute;
+  width:20px
+}
+
+#left-arrow {
+  left: 5px
+}
+
+#right-arrow {
+  right: 40px;
+} 
+
+@media only screen and (max-width: 768px) {
+  #left-arrow {
+    left: 0
+  }
+  
+  #right-arrow {
+    right: 38px;
+  } 
+}
+
+
+@media only screen and (max-width: 767px) {
+  #right-arrow {
+    right: 28px;
+  }
+}
         </style>
     </head>
     <body class="blue-skin">
@@ -131,6 +167,9 @@
 
                             </div>
                         </div>
+
+
+
 
                         <div class="row">
                             <div class="col-lg-1 col-md-1"></div>
@@ -352,110 +391,76 @@
 
             </div>
             <br><br>
-            <div class="row"  style="display:flex;align-items:center;justify-content:left;flex:1" >
+
+
+
+            <div class="row" id="nandam-box"
+            style="display:flex;align-items:center;justify-content:center;flex:1;margin-top: 5%;margin-bottom:5%;">
+            <center>
+                <h4 class="display-6"
+                    style="color:#006E4C;font-family: 'Poppins', sans-serif;font-weight: 400;font-size: 1.5rem">
+                    <strong>OUR PROJECTS</strong></h4>
+                <br>
+            </center>
+
+            <!-- arrows start -->
+
+
+                <button onclick="arrSwitch()" id="left-arrow">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor"
+                        class="bi bi-chevron-left" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z" />
+                    </svg>
+                </button>
+            
+                <button onclick="arrSwitch()" id="right-arrow">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor"
+                        class="bi bi-chevron-right" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
+                    </svg>
+                </button>
+
+
+            <!-- arrows end -->
+
+
+            <div class="col-10 col-lg-6 col-md-6   justify-content-center mySlides active" id="slide0">
                 <center>
-                    <h4 class="display-6" style="color:#006E4C;font-size:2rem"><strong>OUR PROJECTS</strong></h4>
-                    <br>
+                    <div class="" style="height:75%">
+                        <img src="images/psrnandanamelevations_/front 03.jpg" class="img-fluid mx-auto" alt=""
+                            width="75%" height="30%" id="arrTargetImg">
+                    </div>
                 </center>
-                <div class="col-1 col-lg-3 col-md-3 abcd" style="display:flex;align-items:center;justify-content:center;flex:1;cursor:pointer;border-radius: 25%;">
-                    <button style="background-color: transparent;border-color: transparent;"  onclick="plusDivs(-1)">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-chevron-left" viewBox="0 0 16 16">
-                            <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
-                        </svg>
-                    </button>
-                </div>
-                <div class="col-10 col-lg-6 col-md-6   justify-content-center mySlides active" id="slide0">
-                   <center>
-                    <div class="" style="height:75%">
-                        <img src="images/psrnandanamelevations_/front 03.jpg" class="img-fluid mx-auto" alt="" width="75%" height="30%">
-                    </div>
-                    </center>
-                    <div class="dashboard-wraper">
-                        <div class="form-submit d-flex justify-content-center">
-
-                            <div class="submit-section">
-                                <div class="row d-flex justify-content-center">
-                                    <h3 style="color: #006E4C;" class="d-flex justify-content-center"> <a href="nandanam.html" style="color: #006E4C;font-size:1.2rem"> <strong>PSR NANDANAM</strong></a></h3>
-                                    <center>
-                                        <p style="width:100%;font-family: 'Poppins', sans-serif;font-weight: 200;font-size:0.9rem" class="d-flex justify-content-center">Nandanam is an on-going project of 44 luxurious villaments located in
-                                            Devanahalli, Bengaluru. These unique architectural designs have been
-                                            crafted with the right blend of innovation, creativity, and luxury.</p>
-                                    </center>
-
-                                </div>
+                <div class="dashboard-wraper">
+                    <div class="form-submit d-flex justify-content-center">
+                        <div class="submit-section">
+                            <div class="row d-flex justify-content-center">
+                                <h3 style="color: #006E4C;" class="d-flex justify-content-center"> <a
+                                        href="nandanam.html" style="color: #006E4C;font-size:1.2rem"> <strong id="arrTargetTitle">PSR
+                                            NANDANAM</strong></a></h3>
                                 <center>
-                                    <button class="btn btn-success" type="button" data-toggle="modal" data-target="#exampleModalCenter">Free Site Visit</button>
-
+                                    <p style="width:100%;font-family: 'Poppins', sans-serif;font-weight: 200;font-size:0.9rem"
+                                        class="d-flex justify-content-center" id="arrTargetP">Nandanam is an on-going project of 44
+                                        luxurious villaments located in
+                                        Devanahalli, Bengaluru. These unique architectural designs have been
+                                        crafted with the right blend of innovation, creativity, and luxury.</p>
                                 </center>
                             </div>
+                            <center>
+                                <button type="button" data-toggle="modal" data-target="#exampleModalCenter"
+                                    style="padding-left:20px;padding-right:20px;font-weight: 400;"
+                                    class="btn btn-success d-flex">FREE SITE VISIT</button>
+
+                            </center>
                         </div>
                     </div>
                 </div>
-                <div class="col-10 col-lg-6 col-md-6   justify-content-center mySlides  " id="slide1">
-                   <center>
-                    <div class="" style="height:75%">
-                        <img src="images/krish-kamal-images/10.jpeg" class="img-fluid mx-auto" alt="" width="75%" height="30%">
-                    </div>
-                    </center>
-                    <div class="dashboard-wraper">
-                        <div class="form-submit d-flex justify-content-center">
-
-                            <div class="submit-section">
-                                <div class="row d-flex justify-content-center">
-                                    <h3 style="color: #006E4C;" class="d-flex justify-content-center"> <a href="krish.html" style="color: #006E4C;font-size:1.2rem"> <strong>PSR KRISH KAMAL</strong></a></h3>
-                                    <center>
-                                        <p style="width:100%;font-family: 'Poppins', sans-serif;font-weight: 200;font-size:0.9rem" class="d-flex justify-content-center">Krish Kamal is an on-going project of 44 luxurious villaments located in
-                                            Devanahalli, Bengaluru. These unique architectural designs have been
-                                            crafted with the right blend of innovation, creativity, and luxury.</p>
-                                    </center>
-
-                                </div>
-                                <center>
-                                    <button class="btn btn-success" type="button" data-toggle="modal" data-target="#exampleModalCenter">Free Site Visit</button>
-
-                                </center>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-1 col-lg-3 col-md-3 abcd" style="display:flex;align-items:center;justify-content:center;flex:1;cursor:pointer">
-                    <button style="background-color: transparent;border-color: transparent;" onclick="plusDivs(1)">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
-                            <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
-                        </svg>
-                    </button>
-                </div>
-
-
-                <!-- <div class="col-lg-6 col-md-6  justify-content-center mySlides">
-                    <center>
-                        <div class="" style="height:75%">
-
-                            <img src="images/psrnandanamelevations_/front 03.jpg" class="img-fluid mx-auto" alt="" width="75%" height="30%">
-                        </div>
-                    </center>
-                    <div class="dashboard-wraper">
-                        <div class="form-submit  justify-content-center">
-
-                            <div class="submit-section">
-                                <div class="row d-flex justify-content-center">
-                                    <h3 style="color: #006E4C;" class="d-flex justify-content-center">  <strong>PSR KRISH KAMAL</strong></h3>
-                                    <center>
-                                        <p style="color:#006E4C;width:100%" class="d-flex justify-content-center"><i>Krish Kamal is a 350 unit apartment project by PSR Group of builders
-                                            which is all set to establish a firm benchmark in quality construction,
-                                            and state-of-art amenities. Ready to move in! Hurry up!</i></p>
-                                    </center>
-
-                                </div>
-                                <center>
-                                    <button type="button" class="btn btn-success d-flex">FREE SITE VISIT</button>
-
-                                </center>
-                            </div>
-                        </div>
-                    </div>
-                </div>  -->
             </div>
+        </div>
+
+            
             <br><br>
             <div class="row" style="height:100vh">
                 <br>
@@ -770,6 +775,26 @@
                   </div>
     </body>
 </html>
+<script>
+    let arrIndex = 0
+const arrImgs = ["images/psrnandanamelevations_/front 03.jpg", "images/krish-kamal-images/10.jpeg"]
+const arrTitles = ["PSR NANDANAM", "PSR KRISH KAMAL"]
+const arrPs = ["Nandanam is an on-going project of 44 luxurious villaments located in Devanahalli, Bengaluru. These unique architectural designs have been crafted with the right blend of innovation, creativity, and luxury.", "Krish Kamal is an on-going project of 44 luxurious villaments located in Devanahalli, Bengaluru. These unique architectural designs have been crafted with the right blend of innovation, creativity, and luxury."]
+const arrTargetImg = document.querySelector('#arrTargetImg')
+const arrTargetTitle  = document.querySelector('#arrTargetTitle')
+const arrTargetP  = document.querySelector('#arrTargetP')
+
+const arrSwitch = _ => {
+    if (arrIndex === 1) {
+        arrIndex = 0
+    } else if (arrIndex === 0) {
+        arrIndex = 1
+    }
+    arrTargetImg.src = arrImgs[arrIndex]
+    arrTargetTitle.textContent = arrTitles[arrIndex]
+    arrTargetP.textContent = arrPs[arrIndex]
+}
+</script>
 <script src="assets/js/jquery.min.js"></script>
 <script src="assets/js/popper.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>

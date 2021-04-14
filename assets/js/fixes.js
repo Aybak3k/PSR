@@ -31,6 +31,31 @@ if (screen.width < 768) {
                 living spaces for  <br>
                 people with taste</p><br>
         </div>
+        `;
+        document.querySelector('#top-image-container-2').innerHTML = `
+        <div class="col-lg-5 col-md-5" style="padding:0;">
+            <img src="images/psrnandanamelevations_/10_VRayCam002.jpg" width="100%" height="100%">
+        </div>
+        <div class="col-lg-1 col-md-1 " style="background-color: #006E4C;"></div>
+        <div class="col-lg-6 col-md-6 "
+            style="background-color: #006E4C;display:flex;align-items:center;justify-content:left;flex:1">
+            <p style="color:white" style="width:50%"><span
+                    style="font-family: 'Poppins', sans-serif;font-weight: 400" id="reduce-size">PSR NANDANAM -
+                    INVEST IN THE<br>
+                    MOST EXCLUSIVE CRIB IN TOWN!</span><br>
+                <i style="font-size:20px;width:50%;font-family: 'Poppins', sans-serif;font-weight: 200">Nandanam is
+                    an on-going project of 44 luxurious
+                    villaments from PSR Group of builders,
+                    located in Devanahalli, Bengaluru.
+                    These unique architectural designs have
+                    been crafted with the right blend of innovation,
+                    creativity, and luxury
+                    <br><br> </i>
+                <a href="project.html" class="btn btn-success" type="button"><strong>KN</strong>O<strong>W
+                        M</strong>O<strong>RE</strong></a>
+            </p>
+
+
+        </div>
         `
 }
-
