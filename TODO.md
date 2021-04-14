@@ -1,5 +1,16 @@
-1) top image _done_
-2) image above text _done_
-3) the full stop _done_
-4) the nandam-box height problem _done_
-5) the arrows _if less than 370px_
+# across all pages
+- arrows    _across_
+- decrease menu icon on phone   _across_
+- menu
+    - PSR bfr Nandnam   _contact + team_
+
+# home page
+- img on top instead of bottom  _bfr contact_
+- less spacing _PSR Group 2nd img_
+
+# careers page
+- office adress : left align
+
+# contact page
+- form labels : left align
+- +office adress
