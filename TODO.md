@@ -1,11 +1,12 @@
-# across all pages
-- decrease menu icon on phone   _across_
+about.html => homes fot the future image 
 
-# DONE
-- arrows
-- office adress : left align
-- form labels : left align
-- +office adress
-- less spacing _PSR Group 2nd img_
-- img on top instead of bottom  _bfr contact_
-- menu : PSR bfr Nandnam   _contact + team_
+index.html  => PSR krish kamal - arr txt (2. point)
+
+krish.html => same as 2. point
+
+btn => nandanam.html. 
+	index.html
+
+contact.html, team, career => HSR + layout at the bottom	all
+
+about => who are we => commercial and plotted developement
