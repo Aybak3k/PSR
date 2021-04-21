@@ -245,7 +245,15 @@ a:hover
                 }
             }
 
+            @media only screen and (max-width: 768px) {
 
+  #eb-div{
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+  }
+
+}
         </style>
     </head>
     <body class="blue-skin">
@@ -558,10 +566,15 @@ a:hover
 
                         </p>
                     </center>
-                    <center>
-                    <button type="button" class="btn btn-success d-flex" data-toggle="modal" data-target="#exampleModalCenter">FREE SITE VISIT</button>
-
-                </center>
+                    <div id="eb-div" style="display: flex; justify-content: center;">
+                        <button type="button" data-toggle="modal" data-target="#exampleModalCenter"
+                            style="padding-left:20px;padding-right:20px;font-weight: 400;"
+                            class="btn btn-success d-flex">FREE SITE VISIT</button>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a href="files/ebroucher.pdf" class="btn btn-success d-flex"
+                        style="text-decoration: none; color:#fff; display: inline-block; width: 175px;"
+                        download target="_blank">Download ebroucher</a>
+                    </div>
                 </div>
                 <div class="col-lg-1 col-md-1 " style="background-color: white;"></div>
 

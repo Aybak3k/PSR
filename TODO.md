@@ -1,12 +1,15 @@
-about.html => homes fot the future image 
+about.html => homes for the future image 	`done`
 
-index.html  => PSR krish kamal - arr txt (2. point)
+index.html  => PSR krish kamal - arr txt (2. point) `done`
+~~krish~~ about.html => same as 2. point `same`
 
-krish.html => same as 2. point
 
-btn => nandanam.html. 
-	index.html
+btn => nandanam.html. `done`
+	index.html `same`
 
-contact.html, team, career => HSR + layout at the bottom	all
+contact.html, team, career => HSR + layout at the bottom	`done`
 
-about => who are we => commercial and plotted developement
+
+about => who are we => commercial and plotted developement `done`
+
+pincode `done`

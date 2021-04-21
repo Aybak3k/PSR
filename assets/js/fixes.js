@@ -2,7 +2,7 @@
 let arrIndex = 0
 const arrImgs = ["images/psrnandanamelevations_/front 03.jpg", "images/krish-kamal-images/2.jpeg"]
 const arrTitles = ["PSR NANDANAM", "Krish Kamal"]
-const arrPs = ["Nandanam is an on-going project of 44 luxurious villaments located in Devanahalli, Bengaluru. These unique architectural designs have been crafted with the right blend of innovation, creativity, and luxury.", "Krish Kamal is an on-going project of 44 luxurious villaments located in Devanahalli, Bengaluru. These unique architectural designs have been crafted with the right blend of innovation, creativity, and luxury."]
+const arrPs = ["Nandanam is an on-going project of 44 luxurious villaments located in Devanahalli, Bengaluru. These unique architectural designs have been crafted with the right blend of innovation, creativity, and luxury.", "PSR Krish Kamal is a project by PSR Group which islooking to set a benchmark forconstruction quality provided by builders. PSR Groupis dedicated to providing quality living ataffordable prices to the customers. Now, we have launchedour Phase 3 Ready to Move in2/3BHK flats at Electronic City. PSR Krish Kamal hasbeen built with a sensitivity towards lifesurrounding it. The intelligent features here withthoroughly planned facilities and amenitiescreate a complete, and sustainable lifestyle"]
 const arrTargetImg = document.querySelector('#arrTargetImg')
 const arrTargetTitle  = document.querySelector('#arrTargetTitle')
 const arrTargetP  = document.querySelector('#arrTargetP')
