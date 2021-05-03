@@ -62,4 +62,29 @@
       #submenu p{
         color: grey;
       }
+
+      /* submenu styles for smaller screens*/
+      @media only screen and (max-width: 768px) {
+        #submenu {
+          display:flex;
+          flex-flow: wrap;
+          flex-driection: column;
+          width:300px;
+        }
+
+        #submenu h4 {
+            margin-bottom:10px;
+        }
+
+        #submenu .col {
+          margin-bottom: 30px;
+        }
+
+        #nav-menu {
+          display:flex;
+          flex-flow: wrap;
+          flex-driection: column;
+        }
+      }
+
 </style>

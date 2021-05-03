@@ -126,6 +126,12 @@
     for (link of menuLinks) {
       link.onmouseover = _ => subMenu.style.visibility = "hidden"
     }
+
+    // enabling click instead of hovering for phones
+    // 3 lines as promised LOL
+    if (screen.width < 768) {
+      hoveredEle.onclick = _ => subMenu.style.visibility = "visible"
+    }
   </script>
   </body>
 </html>
