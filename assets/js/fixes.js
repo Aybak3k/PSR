@@ -1,8 +1,8 @@
 // adding functionality to arrows
 let arrIndex = 0
 const arrImgs = ["images/psrnandanamelevations_/front 03.jpg", "images/krish-kamal-images/2.jpeg"]
-const arrTitles = ["PSR NANDANAM", "Krish Kamal"]
-const arrPs = ["Nandanam is an on-going project of 44 luxurious villaments located in Devanahalli, Bengaluru. These unique architectural designs have been crafted with the right blend of innovation, creativity, and luxury.", "PSR Krish Kamal is a project by PSR Group which islooking to set a benchmark forconstruction quality provided by builders. PSR Groupis dedicated to providing quality living ataffordable prices to the customers. Now, we have launchedour Phase 3 Ready to Move in2/3BHK flats at Electronic City. PSR Krish Kamal hasbeen built with a sensitivity towards lifesurrounding it. The intelligent features here withthoroughly planned facilities and amenitiescreate a complete, and sustainable lifestyle"]
+const arrTitles = ["PSR NANDANAM", "PSR KRISH KAMAL"]
+const arrPs = ["Nandanam is an on-going project of 44 luxurious villaments located in Devanahalli, Bengaluru. These unique architectural designs have been crafted with the right blend of innovation, creativity, and luxury.", "PSR Krish Kamal is a project by PSR Group which islooking to set a benchmark for construction quality provided by builders. PSR Group is dedicated to providing quality living ataffordable prices to the customers. Now, we have launchedour Phase 3 Ready to Move in2/3BHK flats at Electronic City."]
 const arrTargetImg = document.querySelector('#arrTargetImg')
 const arrTargetTitle  = document.querySelector('#arrTargetTitle')
 const arrTargetP  = document.querySelector('#arrTargetP')
@@ -51,7 +51,7 @@ if (screen.width < 768) {
                     been crafted with the right blend of innovation,
                     creativity, and luxury
                     <br><br> </i>
-                <a href="project.html" class="btn btn-success" type="button"><strong>KN</strong>O<strong>W
+                <a href="nandanam.html" class="btn btn-success" type="button"><strong>KN</strong>O<strong>W
                         M</strong>O<strong>RE</strong></a>
             </p>
 
